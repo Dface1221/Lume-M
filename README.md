@@ -160,7 +160,7 @@ WORLD
 ## 🎬 Demo
  Some larger files are upload here.
  Full video (uncompressed – required for decoding):
- [Download here]([https://github.com/Dface1221/Lume-M/releases/tag/sample_videos])
+ [Download here](https://github.com/Dface1221/Lume-M/releases/tag/sample_videos)
 
 ## Contributing
 
