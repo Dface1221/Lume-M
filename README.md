@@ -156,8 +156,11 @@ WORLD
 /videos
   └── sample.mp4
 ```
-
 ---
+## 🎬 Demo
+ Some larger files are upload here.
+ Full video (uncompressed – required for decoding):
+ [Download here]([your-link](https://github.com/Dface1221/Lume-M/releases/tag/sample_videos))
 
 ## Contributing
 
