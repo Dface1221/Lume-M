@@ -10,12 +10,12 @@ Instead of obvious blinking, this project hides information inside **smooth ligh
 
 ## Features
 
-* 🔹 **Stealth Communication** — No visible blinking, only smooth brightness modulation
-* 🔹 **ESP32-based Encoder** — Real-time LED signal generation using FastLED
-* 🔹 **Camera-based Decoder** — Extracts hidden data from recorded video
-* 🔹 **Adjustable Signal Parameters** — Control brightness, speed, and smoothness
-* 🔹 **Scene System** — Structured phases for calibration, idle, and transmission
-* 🔹 **Full Morse Support** — A–Z, 0–9, and spaces
+*  **Stealth Communication** — No visible blinking, only smooth brightness modulation
+*  **ESP32-based Encoder** — Real-time LED signal generation using FastLED
+*  **Camera-based Decoder** — Extracts hidden data from recorded video
+*  **Adjustable Signal Parameters** — Control brightness, speed, and smoothness
+*  **Scene System** — Structured phases for calibration, idle, and transmission
+*  **Full Morse Support** — A–Z, 0–9, and spaces
 
 ---
 
