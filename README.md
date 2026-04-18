@@ -1,6 +1,6 @@
 # Lume-M
 ---
-# 🔦 Steganographic LED Morse Communication (ESP32 + Computer Vision)
+# Steganographic LED Morse Communication (ESP32 + Computer Vision)
 
 A covert communication system that encodes Morse code into **subtle brightness variations** of an LED using an ESP32, and decodes it from video using Python + OpenCV.
 
@@ -8,7 +8,7 @@ Instead of obvious blinking, this project hides information inside **smooth ligh
 
 ---
 
-## 🚀 Features
+## Features
 
 * 🔹 **Stealth Communication** — No visible blinking, only smooth brightness modulation
 * 🔹 **ESP32-based Encoder** — Real-time LED signal generation using FastLED
@@ -19,7 +19,7 @@ Instead of obvious blinking, this project hides information inside **smooth ligh
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 ### Encoding (ESP32)
 
@@ -47,7 +47,7 @@ This creates a signal that looks like natural lighting but carries data.
 
 ---
 
-## ⚙️ Hardware Setup
+## Hardware Setup
 
 * ESP32
 * WS2812B LED strip (or single LED)
@@ -55,7 +55,7 @@ This creates a signal that looks like natural lighting but carries data.
 
 ---
 
-## 🖥️ Software Requirements
+## Software Requirements
 
 ### ESP32
 
@@ -70,7 +70,7 @@ pip install opencv-python numpy matplotlib
 
 ---
 
-## 🔧 Configuration (Encoder)
+## Configuration (Encoder)
 
 You can control the behavior using these parameters:
 
@@ -85,7 +85,7 @@ You can control the behavior using these parameters:
 
 ---
 
-## 🎛️ Parameter Guide
+## Parameter Guide
 
 | Parameter    | Description                                    |
 | ------------ | ---------------------------------------------- |
@@ -97,7 +97,7 @@ You can control the behavior using these parameters:
 
 ---
 
-## 🕵️ Stealth vs Reliability
+## Stealth vs Reliability
 
 | Mode             | Settings                    |
 | ---------------- | --------------------------- |
@@ -107,7 +107,7 @@ You can control the behavior using these parameters:
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 * Raw signal appears as smooth light variation
 * Decoder reconstructs Morse sequence
@@ -119,7 +119,7 @@ WORLD
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * Very low brightness differences may fail detection
 * Camera FPS affects decoding accuracy
@@ -127,7 +127,15 @@ WORLD
 
 ---
 
-## 💡 Future Improvements
+## Currently work under controlled environment
+
+* It is still under development so error can occur
+* Work in controlled environment, outside use can produce undesired result
+* Need some adjustments before deployment and the environment must be known to user and tested multiple time at different angles
+
+---
+
+## Future Improvements
 
 * Adaptive thresholding in decoder
 * Real-time decoding (live camera feed)
@@ -136,7 +144,7 @@ WORLD
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 /esp32
@@ -151,26 +159,26 @@ WORLD
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to fork, experiment, and improve decoding robustness or stealth techniques.
 
 ---
 
-## 📜 License
+## License
 
 MIT License
 
 ---
 
-## ⭐ Acknowledgments
+## Acknowledgments
 
 * Inspired by covert optical communication techniques
 * Built using FastLED and OpenCV
 
 ---
 
-## 🔥 Summary
+## Summary
 
 This project demonstrates how:
 
